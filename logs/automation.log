@@ -1,0 +1,44 @@
+2025-11-11 19:38:11 [main] INFO Test Suite Started 
+2025-11-11 19:38:25 [main] INFO Visiting the websitehttp://www.automationpractice.pl 
+2025-11-11 19:38:27 [main] INFO loginTest 
+2025-11-11 19:38:27 [main] INFO Verifies with the valid user is able to login into the application 
+2025-11-11 19:38:27 [main] INFO [e2e, sanity] 
+2025-11-11 19:38:27 [main] INFO Trying to performing click to go to Sign in Page 
+2025-11-11 19:38:27 [main] INFO Finding Element with the locatorBy.xpath: //a[contains(text(),"Sign")] 
+2025-11-11 19:38:27 [main] INFO Element Found and now performing clickBy.xpath: //a[contains(text(),"Sign")] 
+2025-11-11 19:38:28 [main] INFO Finding Element with the locatorBy.id: email 
+2025-11-11 19:38:28 [main] INFO Element Found and now enter textRosy@gmail.com 
+2025-11-11 19:38:28 [main] INFO Finding Element with the locatorBy.id: passwd 
+2025-11-11 19:38:29 [main] INFO Element Found and now enter textpassword 
+2025-11-11 19:38:29 [main] INFO Finding Element with the locatorBy.id: SubmitLogin 
+2025-11-11 19:38:29 [main] INFO Element Found and now performing clickBy.id: SubmitLogin 
+2025-11-11 19:38:30 [main] INFO Finding Element with the locatorBy.xpath: //a[@title="View my customer account"]/span 
+2025-11-11 19:38:31 [main] ERROR loginTest FAILED 
+2025-11-11 19:38:31 [main] ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]/span"}
+  (Session info: chrome=141.0.7390.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [62903303425f65c76a0117f047394565, findElement {value=//a[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.123 (fcf346308f8..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62903303425f65c76a0117f047394565 
+2025-11-11 19:38:31 [main] INFO Capturing Screenshot for the failed tests 
+2025-11-11 19:38:31 [main] INFO Attaching the Screenshot to the HTML file 
+2025-11-11 19:38:45 [main] INFO Visiting the websitehttp://www.automationpractice.pl 
+2025-11-11 19:38:46 [main] INFO loginTest 
+2025-11-11 19:38:46 [main] INFO Verifies with the valid user is able to login into the application 
+2025-11-11 19:38:46 [main] INFO [e2e, sanity] 
+2025-11-11 19:38:46 [main] INFO Trying to performing click to go to Sign in Page 
+2025-11-11 19:38:46 [main] INFO Finding Element with the locatorBy.xpath: //a[contains(text(),"Sign")] 
+2025-11-11 19:38:47 [main] INFO Element Found and now performing clickBy.xpath: //a[contains(text(),"Sign")] 
+2025-11-11 19:38:48 [main] INFO Finding Element with the locatorBy.id: email 
+2025-11-11 19:38:48 [main] INFO Element Found and now enter textfdyhugi153@uxmil.com 
+2025-11-11 19:38:49 [main] INFO Finding Element with the locatorBy.id: passwd 
+2025-11-11 19:38:49 [main] INFO Element Found and now enter textpassword 
+2025-11-11 19:38:49 [main] INFO Finding Element with the locatorBy.id: SubmitLogin 
+2025-11-11 19:38:50 [main] INFO Element Found and now performing clickBy.id: SubmitLogin 
+2025-11-11 19:38:50 [main] INFO Finding Element with the locatorBy.xpath: //a[@title="View my customer account"]/span 
+2025-11-11 19:38:51 [main] INFO Element Found and now returning the visible textRosy N 
+2025-11-11 19:38:51 [main] INFO loginTest PASSED 
+2025-11-11 19:38:52 [main] INFO Test Suite Completed 
